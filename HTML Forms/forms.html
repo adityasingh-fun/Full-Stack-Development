@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" placeholder="John" required/>
+      <br />
+      <br />
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" placeholder="Wick" required />
+      <br /><br />
+      <label for="age">Age:</label>
+      <input type="number" id="number" />
+      <br /><br />
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="others" />
+      <label for="others">Others</label>
+      <br /><br />
+      <label for="emailId">email:</label>
+      <input type="email" id="emailId" />
+      <br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <br><br>
+      <label for="file">File:</label>
+      <input type="file">
+      <br><br>
+      <label for="favourite">Select your favourite language</label>
+      <select name="language" id="favourite">
+        <option value="javascript">Javascript</option>
+        <option value="java">Java</option>
+        <option selected value="python">python</option>
+      </select>
+      <br><br>
+      <label for="fav2">Select your favourite:</label>
+      <select>
+        <optgroup label="color">
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="blue">Blue</option>
+        </optgroup>
+        <optgroup label="Fruit">
+            <option value="banana">Banana</option>
+            <option value="grapes">Grapes</option>
+            <option selected value="guava">Guava</option>
+        </optgroup>
+        <optgroup label="languages">
+            <option value="js">javascript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </optgroup>
+      </select>
+      <br><br>
+      <label >Langu</label>
+      <select name="languages" >
+        <option value="js">js</option>
+        <option value="java">java</option>
+        <option value="py">py</option>
+      </select>
+      <br><br>
+      <select>
+        <optgroup label="movie">
+            <option value="candy">cnandy</option>
+        </optgroup>
+      </select>
+      <br><br>
+      <fieldset>
+        <legend>Select one of the given branches</legend>
+        <label for="branch">Select One:</label>
+        <label for="cse">CSE</label>
+        <input type="radio" id="cse" name="branch">
+        <label for="ece">ECE</label>
+        <input type="radio" id="ece" name="branch">
+
+      </fieldset>
+      <label for="Category">Category</label>
+      <input type="radio" id="general" name="Category">
+      <label for="general">General</label>
+      <input type="radio" id="obc" name="Category">
+      <label for="obc">OBC</label>
+      <br><br>
+      <label>Select your favourite browser:</label>
+      <input list="browsers">
+      <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="oprea mini"></option>
+        <option value="safari"></option>
+        <option value="firefox"></option>
+      </datalist>
+      <br><br>
+      <input type="button" value="Submit">      
+    </form>
+  </body>
+</html>

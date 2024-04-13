@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MyHTMLTagsPage</title>
+  </head>
+  <body>
+    <h1>Enjoy the video</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/vpA7yQkA3o4?si=t05grnG8TCT5rv5V"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <table>
+      <tr>
+        <th
+          style="border: 1px solid #ccc; background-color: #ccc; width: 120px"
+        >
+          Name
+        </th>
+        <th
+          style="border: 1px solid #ccc; background-color: #ccc; width: 120px"
+        >
+          Age
+        </th>
+        <th
+          style="border: 1px solid #ccc; background-color: #ccc; width: 120px"
+        >
+          Gender
+        </th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; width: 120px">Aditya</td>
+        <td style="border: 1px solid #ccc; width: 120px">27</td>
+        <td style="border: 1px solid #ccc; width: 120px">Male</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; width: 120px">Kanika</td>
+        <td style="border: 1px solid #ccc; width: 120px">22</td>
+        <td style="border: 1px solid #ccc; width: 120px">Female</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc; width: 120px">Vaishali</td>
+        <td style="border: 1px solid #ccc; width: 120px">25</td>
+        <td style="border: 1px solid #ccc; width: 120px">Female</td>
+      </tr>
+    </table>
+
+    <h2>Advanced HTML Table</h2>
+    <hr />
+    <!-- html table advanced -->
+    <table style="width: 100%; border: 1px solid #ccc; margin: 20px 0">
+      <caption
+        style="text-align: left; font-weight: bolder; margin-bottom: 20px"
+      >
+        Product Sales
+      </caption>
+      <colgroup>
+        <col style="width: 20%;" / > <col style="width: 20%;" / > <col
+        style="width: 20%;" / > <col style="width: 20%;" / >
+      </colgroup>
+      <thead>
+        <tr style="background-color: #f0f0f0">
+          <th style="border: 1px solid #ccc; text-align: center">Region</th>
+          <th style="border: 1px solid #ccc; text-align: center">Product</th>
+          <th style="border: 1px solid #ccc; text-align: center">Quantity</th>
+          <th style="border: 1px solid #ccc; text-align: center">
+            Total Sales
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ccc; text-align: center">North</td>
+          <td style="border: 1px solid #ccc; text-align: center">iphone</td>
+          <td style="border: 1px solid #ccc; text-align: center">20</td>
+          <td style="border: 1px solid #ccc; text-align: center">$2000</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; text-align: center">South</td>
+          <td style="border: 1px solid #ccc; text-align: center">ipad</td>
+          <td style="border: 1px solid #ccc; text-align: center">10</td>
+          <td style="border: 1px solid #ccc; text-align: center">$800</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; text-align: center">West</td>
+          <td style="border: 1px solid #ccc; text-align: center">iwatch</td>
+          <td style="border: 1px solid #ccc; text-align: center">25</td>
+          <td style="border: 1px solid #ccc; text-align: center">$1200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td style="border: 1px solid #ccc; text-align: center">Total</td>
+          <td style="border: 1px solid #ccc; text-align: center">$3000</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <hr />
+    <hr />
+    <!-- Nested HTML Table -->
+    <h1>Nested HTML Table</h1>
+    <hr />
+    <table style="border: 1px solid #ccc; width: 100%">
+      <caption style="font-size: 30px; text-align: left; font-weight: bolder;">
+        Income Table
+      </caption>
+      <colgroup>
+        <col style="width: 20%" />
+        <col style="width: 20%" />
+        <col style="width: 30%" />
+      </colgroup>
+      <tr style="background-color: #f0f0f0">
+        <th style="border: 1px solid #ccc">Name</th>
+        <th style="border: 1px solid #ccc">Age</th>
+        <th style="border: 1px solid #ccc">Income Source</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc">Aditya</td>
+        <td style="border: 1px solid #ccc">27</td>
+        <td style="border: 1px solid #ccc">
+          <table>
+            <colgroup>
+              <col style="width: 20%;" />
+              <col style="width: 30%;" />
+              <col style="width: 20%;" />
+            </colgroup>
+            <tr style="background-color: #f0f0f0;">
+              <th style="border: 1px solid #ccc;">Profile</th>
+              <th style="border: 1px solid #ccc;">Amount Generated</th>
+              <th style="border: 1px solid #ccc;">Start Date</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #ccc;">Software Engineer</td>
+              <td style="border: 1px solid #ccc;">$400</td>
+              <td style="border: 1px solid #ccc;">October,2023</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #ccc;">Passive Income</td>
+              <td style="border: 1px solid #ccc;">$400</td>
+              <td style="border: 1px solid #ccc;">January,2023</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ccc">Kanika</td>
+        <td style="border: 1px solid #ccc">22</td>
+        <td style="border: 1px solid #ccc">
+          <table>
+            <colgroup>
+              <col style="width: 20%;" />
+              <col style="width: 30%;" />
+              <col style="width: 20%;" />
+            </colgroup>
+            <tr style="background-color: #f0f0f0;">
+              <th style="border: 1px solid #ccc;">Profile</th>
+              <th style="border: 1px solid #ccc;">Amount Generated</th>
+              <th style="border: 1px solid #ccc;">Start Date</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #ccc;">Software Engineer</td>
+              <td style="border: 1px solid #ccc;">$300</td>
+              <td style="border: 1px solid #ccc;">October,2023</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #ccc;">Passive Income</td>
+              <td style="border: 1px solid #ccc;">$400</td>
+              <td style="border: 1px solid #ccc;">January,2023</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
