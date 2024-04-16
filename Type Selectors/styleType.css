@@ -1,0 +1,28 @@
+/* styling for all h1 elements */
+h1{
+    color: #228b22;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    color: #6b8e23;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+p{
+    color: #556b2f;
+    text-align: center;
+    font-size: 25px;;
+    /* line-height: 1.5; */
+}
+ul{
+    list-style: none;
+    text-align: center;
+    color: #556b2f;
+    font-size: 20px;
+    font-style: oblique;
+}
+a{
+    text-decoration: blue;
+}
