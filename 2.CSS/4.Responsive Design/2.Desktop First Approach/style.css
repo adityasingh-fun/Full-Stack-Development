@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Desktop First Approach */
+.container{
+    background-color: rgb(237, 131, 131);
+    height: 100vh;
+}
+@media(max-width:1439px){
+    .container{
+        background-color: rgb(209, 121, 88);
+    }   
+    h1{
+        text-align: center;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    p{
+        padding: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+@media screen and (orientation:landscape) {
+    .container{
+        background-color: red;
+    }
+}

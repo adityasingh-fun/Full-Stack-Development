@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+h1{
+    background-color: brown;
+    color: white;
+    /* text-align: center; */
+    font-size: 30px;
+}
+p{
+    font-style: italic;
+    font-size: 18px;
+}
+@media(min-width:500px){
+    h1{
+        padding: 15px 0;
+        text-align: center;
+        font-size: 60px;
+    }
+    p{
+        padding: 20px;
+        font-style: oblique;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+}
